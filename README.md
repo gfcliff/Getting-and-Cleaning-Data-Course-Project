@@ -9,7 +9,6 @@
 # for both groups, train and test, a dataframe is built where each observation is identified with an activity and a subject. in order to do so, we bind the columns
 # we took the decision to relate these DF with these names based on the number of and the description at www.
 # removes the unbinded dataframes
-# # We generate a variable to identify whether the subject belongs to the tested or train groups
 # builds a unique dataframe where merging the test and train dataframes through the rbind command, adding the observation of one to the other´s. 
 # this is possible as both dataframes share the same variables
 # removes the unbinded dataframes
